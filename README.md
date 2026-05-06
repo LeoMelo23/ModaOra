@@ -61,4 +61,4 @@ cd ModaOra
 
 ## 👨‍💻 Autor
 
-Feito com  por **[Leonardo Melo](https://github.com/LeoMelo23)**
+Feito com  por **[Leonardo Melo](https://github.com/LeoMelo23)** 🫡
