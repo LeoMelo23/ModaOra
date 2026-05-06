@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+--fonte-titulo: "Viaoda Libre", serif;
+--fonte-texto:  "Roboto", sans-serif;
+font-size: 62.5%;
+}
+body{
+  font-family: var(--fonte-texto);
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color:#162028;
+    padding: 1rem;
+}
+.cabecalho .logo{
+    color: white;
+    font-size: 4.2em;
+    letter-spacing: 1px;
+     font-family: var(--fonte-titulo);
+}
+.menu{
+    display: flex;
+    list-style: none;
+    font-size: 2rem;
+    gap: 30px;
+}
+.menu a{
+    color:#425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.menu a:hover{
+    color: white;
+}
+
+h1{
+    font-family: var(--fonte-titulo);
+    margin: 2rem 0;
+}
+.txt-pg1{
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2;
+    width: 50vw;
+    margin: 5rem auto;
+}
+.container-modelos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.img-fundo img{
+    width: 100%;
+    height: auto;
+}
+.modelo-texto{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1rem 0;
+    line-height: 2;
+}
+.def-model{
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.pagina2{
+    background-image: url(Imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    margin-top: 5rem;
+}
+.pagina2 h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+.pagina2 p{
+    font-size: 1.7rem;
+}
+.txt-pg2{
+    padding: 7rem;
+    width: 55%;
+    line-height: 1.5;
+}
+footer{
+    background-color:#0b171f;
+    color:#6f8597;
+    text-align: center;
+    padding: 2rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+@media(max-width:1024px){
+    .cabecalho{
+        flex-flow: column nowrap;
+    }
+    .container-modelos{
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .txt-pg1{
+        text-align: left;
+    }
+    .txt-pg2{
+        text-align: left;
+        width: 100%;
+    }
+
+}
